@@ -39,10 +39,7 @@ export class MoviesComponent implements OnInit {
     this.categories = 'movies'
   }
 
-  onAllumer(id)
-  {
-    alert(id)
-  }
+  
 
   films()
   {

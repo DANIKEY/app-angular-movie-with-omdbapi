@@ -6,10 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class MoviesService {
-
- // private readonly URL = 'http://www.omdbapi.com/?s=films&apikey=afb82e05';
   
- private readonly URL = 'http://145.239.8.207:30000/produitsall';
+ private readonly URL = '';
 
   constructor(private http: HttpClient) { }
 
